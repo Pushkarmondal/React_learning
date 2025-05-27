@@ -1,8 +1,10 @@
 
-import { Checkbox } from "./topics/Checkbox"
+// import { Checkbox } from "./topics/Checkbox"
 // import { Input } from "./topics/Input"
 // import { Props } from "./topics/Props"
 // import { Toggle } from "./topics/Toggle"
+
+import { Radiobutton } from "./topics/Radiobutton"
 
 
 function App() {
@@ -20,7 +22,8 @@ function App() {
         {/* <Props userdetails={userDetails}/>
         <Toggle/> */}
         {/* <Input/> */}
-        <Checkbox/>
+        {/* <Checkbox/> */}
+        <Radiobutton/>
        </div>
   )
 }
