@@ -1,5 +1,6 @@
 
-import { Input } from "./topics/Input"
+import { Checkbox } from "./topics/Checkbox"
+// import { Input } from "./topics/Input"
 // import { Props } from "./topics/Props"
 // import { Toggle } from "./topics/Toggle"
 
@@ -18,7 +19,8 @@ function App() {
         <State/> */}
         {/* <Props userdetails={userDetails}/>
         <Toggle/> */}
-        <Input/>
+        {/* <Input/> */}
+        <Checkbox/>
        </div>
   )
 }
