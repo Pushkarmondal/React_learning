@@ -1,3 +1,4 @@
+import Exampleone from "./components/Exampleone";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import JsxRules from "./components/JsxRules";
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      <JsxRules/>
+      <JsxRules />
+      <Exampleone/>
     </div>
   );
 }
